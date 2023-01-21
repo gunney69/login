@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body .imagem-fundo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.card {
+  background-color: #ffffff40;
+  padding: 40px;
+  border-radius: 4%;
+  box-shadow: 1px 1px 1px 1px #00000050;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #011348;
+}
+
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #011348;
+  background-color: transparent;
+  border-radius: 4%;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.label-float input:focus{
+  border-bottom: 2px solid #011348;
+  
+}
+
+.label-float label{
+  color: #011348;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 30px;
+  transition: all .3s ease-out;
+}
+.label-float input:focus + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #011348;
+}
+
+button{
+  background-color: transparent;
+  border-color: #011348;
+  color: #011348;
+  padding: 7px;
+  font-weight: bold;
+  Font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #011348;
+  color: #fff;
+}
+
+.justify-center{
+  display: flex;
+  justify-content:center;
+}
+
+hr{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p{
+  color: #011348;
+  font-size: 14pt;
+  text-align: center;
+}
+
+a{
+  color: #f7f9ff;
+  font-weight: bold;
+	text-decoration: none;
+	transition: all .4s ease-out;
+}
+
+a:hover{
+	color: #011348
+}
