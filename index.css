@@ -76,11 +76,13 @@ h1{
   margin-top: 30px;
   transition: all .3s ease-out;
 }
-.label-float input:focus + label{
-  font-size: 13px;
+.label-float input:focus + label, .label-float input:valid + label {
+  font-size: 15px;
   margin-top: 0;
   color: #011348;
 }
+
+
 
 button{
   background-color: transparent;
